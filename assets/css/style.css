@@ -1,0 +1,116 @@
+.tamanho-produto {
+	max-width: 18rem;
+}
+.titulo-produto{
+    text-align: center;
+	margin-bottom: 40px;
+}
+.logo-especial {
+	font-family: 'Zhi Mang Xing', cursive;
+	font-size: 2em;
+}
+.produto-diverso {
+	text-align: center;
+	padding-bottom:10px;
+}
+.produtos-pd{
+	border-color: #17a2b8;
+}
+
+.produtos {
+    padding-bottom:15px;
+}
+
+.imagem-banner {
+	object-fit: cover;
+	height: 88vh;
+}
+.imagem-card{
+    object-fit: cover;
+    height: 200px;
+}
+.form__contato{
+	padding: 50px 0 50px 0;
+	
+}
+.btn {
+	margin: 15px;
+}
+
+/* Footer */
+.footer {
+    background-color: #3c3c3c;
+    color: white;
+    padding-top: 30px;
+}
+
+.footer .footer__copyright {
+    background-color: #333333;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+}
+
+.footer .row {
+    margin-bottom: 60px;
+}
+
+.footer .navbar-brand {
+    margin-top: 45px;
+    height: 65px;
+}
+
+.footer .footer__copyright p {
+    margin: 10px;
+    color: #ccc;
+}
+
+.footer ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+}
+
+.footer h5 {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.footer h2 a{
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+}
+
+.footer a {
+    color: #d2d1d1;
+    text-decoration: none;
+}
+
+.footer a:hover,
+.footer a:focus {
+    text-decoration: none;
+    color: white;
+}
+
+.footer .btn {
+    color: white;
+    background-color: #d84b6b;
+    border-radius: 20px;
+    border: none;
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    line-height: 25px;
+}
+
+@media screen and (max-width: 767px) {
+    .footer {
+        text-align: center;
+    }
+}
+
+
